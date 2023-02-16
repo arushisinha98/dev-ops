@@ -1,0 +1,18 @@
+DevOps = philosophy of the efficient development, deployment, and operation of the highest quality software possible (unofficial definition)
+move quickly + remain stable
+cultura, automation, measurement
+culture: silo model promotes a "blame culture"
+automation = reducing human intervention to a minimum
+automation in...
+1. Development = CI
+- commit >> build >> test
+- create an artifact to use
+- some sort of OS installer package for software
+2. Deployment = CD
+- pick environment, version of software, deploy
+3. Operation = IaC (infrastructure as code)
+- specify configuration of servers and infrastructure
+- run to create and configure environment
+- e.g. Chef, Ansible, Pupper, SaltStack
+- log aggregation and log management
+- monitoring (security, operations, QA)
